@@ -43,6 +43,9 @@ dwmblocks
 *.idb
 *.pdb
 
+# Suckless config
+config.h
+
 # Makepkg Rejects
 *.orig
 *.rej
