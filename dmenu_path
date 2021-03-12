@@ -14,4 +14,4 @@ APP=$(
 	fi
 )
 
-grep -q -w "$APP" ~/.config/.dmenu_term && st -e $APP || echo $APP | ${SHELL:-"/bin/sh"} &
+grep -q -w "$APP" ~/.repos/dmenu/.dmenu_term && st -e $APP || echo $APP | ${SHELL:-"/bin/sh"} &
